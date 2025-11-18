@@ -181,7 +181,7 @@ export default function BeroArtistSite() {
       <section id="music" className="py-32 px-6 relative">
         <div className="container mx-auto max-w-6xl">
           <div className="mb-16">
-            <h2 className="text-6xl md:text-7xl font-bold font-syne text-white mb-4">Discography</h2>
+            <h2 className="text-6xl md:text-7xl font-bold font-syne text-white mb-4">Music</h2>
             <div className="w-24 h-1 bg-white" />
           </div>
 
@@ -286,7 +286,7 @@ export default function BeroArtistSite() {
             <div className="w-24 h-1 bg-white mx-auto" />
           </div>
 
-          <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl rounded-3xl p-12 border border-white/10">
+          <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl rounded-3xl p-10 border border-white/10">
             <div className="text-center mb-12">
               <a
                 href="mailto:info@junibero.com"
