@@ -12,10 +12,10 @@ export default function BeroArtistSite() {
     <div className="min-h-screen bg-black text-white font-montserrat">
       <div className="fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute inset-0 bg-black" />
-        
+
         <div className="absolute top-20 left-10 w-32 h-32 rounded-full border-4 border-white/10 animate-spin-slow" />
         <div className="absolute bottom-40 right-20 w-48 h-48 rounded-full border-4 border-white/5 animate-spin-slow" style={{ animationDuration: '30s' }} />
-        
+
         <div className="absolute top-1/4 right-10 flex gap-1">
           {[...Array(8)].map((_, i) => (
             <div
@@ -29,14 +29,14 @@ export default function BeroArtistSite() {
             />
           ))}
         </div>
-        
+
         <div className="absolute bottom-1/4 left-20 opacity-10">
           <svg className="w-24 h-24 animate-bounce" fill="currentColor" viewBox="0 0 24 24" style={{ animationDuration: '3s' }}>
-            <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/>
-            <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/>
+            <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z" />
+            <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z" />
           </svg>
         </div>
-        
+
         <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-white/5 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-1/3 left-1/4 w-80 h-80 bg-gray-500/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
       </div>
@@ -66,14 +66,14 @@ export default function BeroArtistSite() {
                 Contact
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
               </a>
-              
+
               <div className="flex gap-4 ml-4 pl-4 border-l border-white/20">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-all hover:scale-110">
+                <a href="https://instagram.com/junibero" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-all hover:scale-110">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.057-1.645.069-4.849.069-3.204 0-3.584-.012-4.849-.069-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.689-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.013 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.057-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                   </svg>
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-all hover:scale-110">
+                <a href="https://youtube.com/@junibero?si=XJ0Br2IyVYIUy2Nv" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-all hover:scale-110">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                   </svg>
@@ -108,14 +108,14 @@ export default function BeroArtistSite() {
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="block text-sm uppercase tracking-wide text-gray-400 hover:text-white transition-colors font-montserrat">
                 Contact
               </a>
-              
+
               <div className="flex gap-4 pt-4 border-t border-white/10">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+                <a href="https://instagram.com/junibero" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.645.069-4.849.069-3.204 0-3.584-.012-4.849-.069-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.689-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.013 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.057-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                   </svg>
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+                <a href="https://youtube.com/@junibero?si=XJ0Br2IyVYIUy2Nv" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                   </svg>
@@ -135,7 +135,7 @@ export default function BeroArtistSite() {
                 <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-gray-500/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
                 <div className="relative overflow-hidden rounded-3xl border border-white/10">
                   <img
-                    src="/moody-portrait-of-hip-hop-artist-in-dark-purple-li.jpg"
+                    src="/images/mainpp.png"
                     alt="junibero"
                     className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
                   />
@@ -207,7 +207,7 @@ export default function BeroArtistSite() {
               </div>
             </a>
 
-            <a href="https://music.youtube.com" target="_blank" rel="noopener noreferrer" className="group">
+            <a href="https://youtube.com/@junibero?si=XJ0Br2IyVYIUy2Nv" target="_blank" rel="noopener noreferrer" className="group">
               <div className="bg-gradient-to-br from-[#FF0000]/20 to-[#FF0000]/5 backdrop-blur-sm rounded-2xl p-8 border border-[#FF0000]/30 hover:border-[#FF0000]/60 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#FF0000]/20">
                 <svg className="w-12 h-12 mb-4 text-[#FF0000] group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
@@ -246,7 +246,7 @@ export default function BeroArtistSite() {
                 <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-gray-500/10 rounded-2xl blur-2xl" />
                 <div className="relative overflow-hidden rounded-2xl border border-white/10">
                   <img
-                    src="/moody-portrait-of-hip-hop-artist-in-dark-purple-li.jpg"
+                    src="/images/mainpp.png"
                     alt="junibero"
                     className="w-full h-auto transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -289,13 +289,13 @@ export default function BeroArtistSite() {
           <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl rounded-3xl p-12 border border-white/10">
             <div className="text-center mb-12">
               <a
-                href="mailto:info@juniberomusic.com"
+                href="mailto:info@junibero.com"
                 className="inline-flex items-center gap-3 text-2xl font-semibold text-white hover:text-gray-300 transition-colors font-montserrat group"
               >
                 <svg className="w-8 h-8 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                info@juniberomusic.com
+                info@junibero.com
               </a>
             </div>
 
@@ -338,12 +338,12 @@ export default function BeroArtistSite() {
             </div>
 
             <div className="flex gap-6">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-all hover:scale-125">
+              <a href="https://instagram.com/junibero" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-all hover:scale-125">
                 <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.057-1.645.069-4.849.069-3.204 0-3.584-.012-4.849-.069-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.689-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.013 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.057-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-all hover:scale-125">
+              <a href="https://youtube.com/@junibero?si=XJ0Br2IyVYIUy2Nv" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-all hover:scale-125">
                 <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                 </svg>
