@@ -56,7 +56,7 @@ export default function LatestDropPage() {
           </div>
           {/* </CHANGE> */}
 
-          <div className="space-y-4">
+          <div className="space-y-4 mb-8">
             {/* Spotify Link */}
             <a
               href="https://open.spotify.com/track/YOUR_JUMPSHOT_TRACK_ID"
@@ -131,11 +131,6 @@ export default function LatestDropPage() {
                 </div>
               </div>
             </a>
-          </div>
-
-          {/* Footer */}
-          <div className="mt-12 text-center">
-            <p className="text-gray-500 text-sm font-montserrat">© 2025 junibero. All rights reserved.</p>
           </div>
         </div>
       </div>
