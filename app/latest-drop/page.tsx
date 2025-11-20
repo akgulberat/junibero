@@ -11,7 +11,7 @@ export default function LatestDropPage() {
             </a>
 
             <a href="/" className="text-sm uppercase tracking-wide text-gray-400 hover:text-white transition-colors font-montserrat">
-              Back to Home
+              Home
             </a>
           </div>
         </div>

@@ -7,7 +7,38 @@ import { Textarea } from "@/components/ui/textarea"
 
 export default function BeroArtistSite() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [formData, setFormData] = useState({
+    nameSurname: "",
+    email: "",
+    message: "",
+  })
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle")
+  const [loading, setLoading] = useState(false)
 
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value })
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setLoading(true)
+    setStatus("idle")
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    })
+
+    if (res.ok) {
+      setStatus("success")
+      setFormData({ email: "", nameSurname: "", message: "" })
+    } else {
+      setStatus("error")
+    }
+
+    setLoading(false)
+  }
   return (
     <div className="min-h-screen bg-black text-white font-montserrat">
       <div className="fixed inset-0 -z-10 overflow-hidden">
@@ -299,14 +330,20 @@ export default function BeroArtistSite() {
               </a>
             </div>
 
-            <form className="space-y-6 font-montserrat">
+            <form className="space-y-6 font-montserrat" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-2 gap-6">
                 <Input
+                  name="nameSurname"
+                  value={formData.nameSurname}
+                  onChange={handleChange}
                   type="text"
                   placeholder="Your Name"
                   className="bg-white/5 border-white/20 focus:border-white text-white placeholder:text-gray-500 h-14 rounded-xl transition-all duration-300"
                 />
                 <Input
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   type="email"
                   placeholder="Your Email"
                   className="bg-white/5 border-white/20 focus:border-white text-white placeholder:text-gray-500 h-14 rounded-xl transition-all duration-300"
@@ -314,6 +351,9 @@ export default function BeroArtistSite() {
               </div>
 
               <Textarea
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
                 placeholder="Your Message"
                 rows={6}
                 className="bg-white/5 border-white/20 focus:border-white text-white placeholder:text-gray-500 rounded-xl transition-all duration-300 resize-none"
@@ -321,10 +361,22 @@ export default function BeroArtistSite() {
 
               <Button
                 type="submit"
+                disabled={loading}
                 className="w-full h-14 bg-white hover:bg-gray-100 text-black text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl font-montserrat"
               >
-                Send Message
+                {loading ? "Sending..." : "Send Message"}
               </Button>
+              {/* ✅ Success / Error Messages */}
+              {status === "success" && (
+                <p className="text-green-600 text-center mt-4 font-medium">
+                  ✅ Mesajınız gönderildi.
+                </p>
+              )}
+              {status === "error" && (
+                <p className="text-red-600 text-center mt-4 font-medium">
+                  ❌ Mesajınız gönderilemedi.
+                </p>
+              )}
             </form>
           </div>
         </div>
