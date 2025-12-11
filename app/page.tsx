@@ -191,7 +191,7 @@ export default function BeroArtistSite() {
 
                 <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl rounded-2xl p-8 border border-white/10 hover:border-white/30 transition-all duration-300 hover:shadow-2xl hover:shadow-white/10">
                   <iframe
-                    src="https://open.spotify.com/embed/album/2uLnnndwo1vu5p0ZkW7i5P?utm_source=generator"
+                    src="https://open.spotify.com/embed/track/7hcuHhLrO0oLj1xeyZL0oi?utm_source=generator"
                     width="100%"
                     height="152"
                     frameBorder="0"
@@ -199,6 +199,7 @@ export default function BeroArtistSite() {
                     loading="lazy"
                     className="rounded-lg mb-6"
                   />
+
                   <p className="text-gray-300 leading-relaxed font-montserrat text-lg">
                     Dive into the underground sound of Turkish hip-hop. Raw beats, authentic storytelling, and cinematic production that captures the essence of the streets.
                   </p>
@@ -218,7 +219,7 @@ export default function BeroArtistSite() {
 
           {/* Platform cards */}
           <div className="grid md:grid-cols-3 gap-6 mb-20">
-            <a href="https://music.youtube.com/watch?v=lAxuJ5gIAX8&si=YulvPjMt3DKAbDjL" target="_blank" rel="noopener noreferrer" className="group">
+            <a href="https://music.youtube.com/channel/UC9lsV9F80LSSNXXFKq0-Xkw" target="_blank" rel="noopener noreferrer" className="group">
               <div className="bg-gradient-to-br from-[#FA243C]/20 to-[#FA243C]/5 backdrop-blur-sm rounded-2xl p-8 border border-[#FA243C]/30 hover:border-[#FA243C]/60 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#FA243C]/20">
                 <div className="w-12 h-12 mb-4 rounded-xl bg-[#FF0000] flex items-center justify-center group-hover:scale-110 transition-transform">
                   <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">

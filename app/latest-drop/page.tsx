@@ -26,14 +26,14 @@ export default function LatestDropPage() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1101.png-9CJYJzOMCJQONnh4k8kbBXIvp7aJAU.jpeg"
-                  alt="Jumpshot by junibero"
+                  src="pacman.png"
+                  alt="PACMAN"
                   className="relative w-72 h-72 rounded-3xl object-cover border-4 border-white/20 shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-500"
                 />
               </div>
 
               {/* Profile Photo Badge Overlay */}
-              <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2">
+              {/* <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2">
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/30 to-white/10 rounded-full blur-xl" />
                   <img
@@ -42,7 +42,7 @@ export default function LatestDropPage() {
                     className="relative w-24 h-24 rounded-full object-cover border-4 border-black shadow-2xl ring-2 ring-white/20"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Artist Info */}
@@ -51,7 +51,7 @@ export default function LatestDropPage() {
                 junibero
               </h1>
               <p className="text-gray-400 font-montserrat text-sm uppercase tracking-wider mb-1">Latest Drop</p>
-              <p className="text-white font-syne text-2xl font-bold">Jumpshot</p>
+              <p className="text-white font-syne text-2xl font-bold">PACMAN</p>
             </div>
           </div>
           {/* </CHANGE> */}
@@ -59,7 +59,7 @@ export default function LatestDropPage() {
           <div className="space-y-4 mb-8">
             {/* Spotify Link */}
             <a
-              href="https://open.spotify.com/intl-tr/album/2uLnnndwo1vu5p0ZkW7i5P?si=b6r_CPAETG2nwtWQZppn4w"
+              href="https://open.spotify.com/intl-tr/album/3AsIpmb0BWdrgZZX6qcDHh?si=paCi8EazSbuF6EtWw4KZIA"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
@@ -84,7 +84,7 @@ export default function LatestDropPage() {
 
             {/* YouTube Music Link */}
             <a
-              href="https://music.youtube.com/watch?v=lAxuJ5gIAX8&si=V8l22kK7mxVQwTiU"
+              href="https://music.youtube.com/watch?v=I9GWgb8n5bE&si=8ZE1U34teTGRMwv-"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
@@ -109,7 +109,7 @@ export default function LatestDropPage() {
 
             {/* YouTube Link */}
             <a
-              href="https://www.youtube.com/watch?v=kWpHpjD-PRY"
+              href="https://www.youtube.com/@Junibero/"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
