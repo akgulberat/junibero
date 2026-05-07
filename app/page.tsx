@@ -191,7 +191,7 @@ export default function BeroArtistSite() {
 
                 <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-xl rounded-2xl p-8 border border-white/10 hover:border-white/30 transition-all duration-300 hover:shadow-2xl hover:shadow-white/10">
                   <iframe
-                    src="https://open.spotify.com/embed/track/7hcuHhLrO0oLj1xeyZL0oi?utm_source=generator"
+                    src="https://open.spotify.com/embed/track/4urRdhsRRmf9fjl0yecH8W?utm_source=generator"
                     width="100%"
                     height="152"
                     frameBorder="0"

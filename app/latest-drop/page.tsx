@@ -26,8 +26,8 @@ export default function LatestDropPage() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
                 <img
-                  src="pacman.png"
-                  alt="PACMAN"
+                  src="haraso.png"
+                  alt="HARASO"
                   className="relative w-72 h-72 rounded-3xl object-cover border-4 border-white/20 shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-500"
                 />
               </div>
@@ -51,7 +51,7 @@ export default function LatestDropPage() {
                 junibero
               </h1>
               <p className="text-gray-400 font-montserrat text-sm uppercase tracking-wider mb-1">Latest Drop</p>
-              <p className="text-white font-syne text-2xl font-bold">PACMAN</p>
+              <p className="text-white font-syne text-2xl font-bold">HARAŞO</p>
             </div>
           </div>
           {/* </CHANGE> */}
@@ -59,7 +59,7 @@ export default function LatestDropPage() {
           <div className="space-y-4 mb-8">
             {/* Spotify Link */}
             <a
-              href="https://open.spotify.com/intl-tr/album/3AsIpmb0BWdrgZZX6qcDHh?si=paCi8EazSbuF6EtWw4KZIA"
+              href="https://open.spotify.com/intl-tr/album/58kttgFmzCwUN4ZXJHIKjv?si=JpjkBuRDRumO04GeOhp9bw"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
@@ -84,7 +84,7 @@ export default function LatestDropPage() {
 
             {/* YouTube Music Link */}
             <a
-              href="https://music.youtube.com/watch?v=I9GWgb8n5bE&si=8ZE1U34teTGRMwv-"
+              href="https://music.youtube.com/watch?v=LAb--uzO_Bw&si=IhcESG5KpdJY5Xfe"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
@@ -109,7 +109,7 @@ export default function LatestDropPage() {
 
             {/* YouTube Link */}
             <a
-              href="https://www.youtube.com/@Junibero/"
+              href="https://www.youtube.com/watch?v=Z4_AnyaZ0vw&list=RDZ4_AnyaZ0vw"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
