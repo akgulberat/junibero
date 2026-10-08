@@ -26,8 +26,8 @@ export default function LatestDropPage() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500" />
                 <img
-                  src="haraso.png"
-                  alt="HARASO"
+                  src="kaos_cover.png"
+                  alt="KAOS"
                   className="relative w-72 h-72 rounded-3xl object-cover border-4 border-white/20 shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-500"
                 />
               </div>
@@ -51,7 +51,7 @@ export default function LatestDropPage() {
                 junibero
               </h1>
               <p className="text-gray-400 font-montserrat text-sm uppercase tracking-wider mb-1">Latest Drop</p>
-              <p className="text-white font-syne text-2xl font-bold">HARAŞO</p>
+              <p className="text-white font-syne text-2xl font-bold">KAOS</p>
             </div>
           </div>
           {/* </CHANGE> */}
@@ -59,7 +59,7 @@ export default function LatestDropPage() {
           <div className="space-y-4 mb-8">
             {/* Spotify Link */}
             <a
-              href="https://open.spotify.com/intl-tr/album/58kttgFmzCwUN4ZXJHIKjv?si=JpjkBuRDRumO04GeOhp9bw"
+              href="https://open.spotify.com/intl-tr/album/4j83ew0xKhZrJHHQI9NVbD?si=rPAIP_akSlybYlaW_bJwVA"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
@@ -84,7 +84,7 @@ export default function LatestDropPage() {
 
             {/* YouTube Music Link */}
             <a
-              href="https://music.youtube.com/watch?v=LAb--uzO_Bw&si=IhcESG5KpdJY5Xfe"
+              href="https://music.youtube.com/playlist?list=OLAK5uy_nLSjOwUJxcOe-Ez-iOqp0One0v0SPUMoc&si=X7Vpe0oQEdniAiRv"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
@@ -109,7 +109,7 @@ export default function LatestDropPage() {
 
             {/* YouTube Link */}
             <a
-              href="https://www.youtube.com/watch?v=Z4_AnyaZ0vw&list=RDZ4_AnyaZ0vw"
+              href="https://www.youtube.com/@Junibero"
               target="_blank"
               rel="noopener noreferrer"
               className="group block"
