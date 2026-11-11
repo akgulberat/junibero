@@ -1,37 +1,23 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Syne, Montserrat } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
-import "./globals.css"
+import type { Metadata } from "next";
+import { VT323, Space_Grotesk } from "next/font/google";
+import "./globals.css";
+import { PlayerProvider } from "@/components/PlayerProvider";
 
-const syne = Syne({
-  subsets: ["latin"],
-  variable: "--font-syne",
-})
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  variable: "--font-montserrat",
-})
+const lcd = VT323({ weight: "400", subsets: ["latin"], variable: "--font-lcd" });
+const body = Space_Grotesk({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
   title: "junibero - Turkish Rap Artist | Producer",
-  description:
-    "Official website of junibero - Turkish rap artist and producer pushing the boundaries of underground hip-hop",
-  generator: "v0.app",
-}
+  description: "Official website of junibero - Turkish rap artist and producer.",
+};
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${syne.variable} ${montserrat.variable} font-montserrat antialiased`}>
-        {children}
-        <Analytics />
+    <html lang="tr" className={`${lcd.variable} ${body.variable}`}>
+      <body>
+        {/* Provider layout seviyesinde: sayfa değişince müzik kesilmez */}
+        <PlayerProvider>{children}</PlayerProvider>
       </body>
     </html>
-  )
+  );
 }
